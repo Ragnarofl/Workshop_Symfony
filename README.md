@@ -52,4 +52,8 @@ php bin/console list make
 
 # Partie 3 : Exercice pratique
 
+Maintenant que vous avez une page pour enregister un User dans votre base de donnée, faite une page pour que cet User puisse se Login sur votre site en vérifiant les données existante dans votre Base de donnée et ensuite un boutton pour qu'il puisse se Logout. Cela vous demandras de gérer le concept de Session afin de faire un Login/Logout propre.
+
 # Partie 4 : Aller plus loin
+
+
