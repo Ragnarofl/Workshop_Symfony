@@ -76,7 +76,7 @@ On vas modifier un peu notre template de form SignupType pour le rendre utilisab
 ![](images/image1.png)
 
 
-Maintenant il ne reste qu'a coder notre page.\
+Maintenant il faut coder notre page en y intégrant notre form et la sauvegarde de la donnée dans la database.\
 ![](images/image2.png)
 
 Et pour finir il ne nous reste qu'a mettre de quoi afficher notre form dans notre signup/index.html.twig
