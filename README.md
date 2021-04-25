@@ -49,6 +49,30 @@ Vous pouvez obtenir la liste de toutes les commandes de génération avec la com
 php bin/console list make
 ```
 
+Maintenant il nous faut créer une database locale pour nos tests. On va utiliser sqlite pour cela.
+Pensez a faire un "php -v" pour mettre votre version de php dans la commande d'installation de sqlite.
+```
+sudo apt-get install php7.4-sqlite
+php bin/console doctrine:database:create
+```
+
+Ensuite on va créer notre form et l'entitée sur laquelle il va se baser.
+```
+php bin/console make:entity
+> User
+> email
+> string
+> 255
+> password
+> string
+> 255
+
+php bin/console make:form
+> SignupType
+> User
+```
+
+
 
 # Partie 3 : Exercice pratique
 
