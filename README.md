@@ -31,6 +31,7 @@ Avant de continuer, je vous conseille grandement d'utiliser l'IDE PHPstorm qui, 
 Commencons par ajouter tout un ensemble de packages qui nous serons bien utile dans la réalisation de ce workshop.
 ```
 composer require annotations
+composer require symfony/twig-bundle
 composer require symfony/form
 composer require symfony/validator
 composer require symfony/orm-pack
@@ -71,13 +72,18 @@ php bin/console make:form
 > SignupType
 > User
 ```
+On vas modifier un peu notre template de form SignupType pour le rendre utilisable et plus propre.
+
+![](images/image1.png)
+
+
+Maintenant il ne reste qu'a coder notre page.
+
+![](images/image2.png)
+
 
 
 
 # Partie 3 : Exercice pratique
 
 Maintenant que vous avez une page pour enregister un User dans votre base de donnée, faite une page pour que cet User puisse se Login sur votre site en vérifiant les données existante dans votre Base de donnée et ensuite un boutton pour qu'il puisse se Logout. Cela vous demandras de gérer le concept de Session afin de faire un Login/Logout propre.
-
-# Partie 4 : Aller plus loin
-
-
