@@ -72,11 +72,11 @@ php bin/console make:form
 > SignupType
 > User
 ```
-On vas modifier un peu notre template de form SignupType pour le rendre utilisable et plus propre.
+On vas modifier un peu notre template de form SignupType pour le rendre utilisable et plus propre.\
 ![](images/image1.png)
 
 
-Maintenant il ne reste qu'a coder notre page.
+Maintenant il ne reste qu'a coder notre page.\
 ![](images/image2.png)
 
 Et pour finir il ne nous reste qu'a mettre de quoi afficher notre form dans notre signup/index.html.twig
