@@ -88,3 +88,5 @@ Et pour finir il ne nous reste qu'a mettre de quoi afficher notre form dans notr
 # Partie 3 : Exercice pratique
 
 Maintenant que vous avez une page pour enregister un User dans votre base de donnée, faite une page pour que cet User puisse se Login sur votre site en vérifiant les données existante dans votre Base de donnée et ensuite un boutton pour qu'il puisse se Logout. Cela vous demandras de gérer le concept de Session afin de faire un Login/Logout propre.
+
+Pour vous orienter un peu je vous invite a vous renseigner sur le concept de route et de session avec Symfony.
